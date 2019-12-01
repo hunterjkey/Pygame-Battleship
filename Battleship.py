@@ -255,10 +255,6 @@ while not done:
                 screen.blit(helptext, [10, 355])
                 helptext = helpbodyfont.render("player to sink all of their oppenents ships win!",True,WHITE)
                 screen.blit(helptext, [10, 370])
-                helptext = helpbodyfont.render("NOTE: This game currently doesn't contain the capability to say when a",True,WHITE)
-                screen.blit(helptext, [10, 395])
-                helptext = helpbodyfont.render("ship has been sunk. At this point, each side just needs to hit every dot",True,WHITE)
-                screen.blit(helptext, [10, 410])
 
                 pygame.draw.rect(screen,ORANGE,[190,450,120,35])
                 helptext = helptitlefont.render("CONTINUE",True,WHITE)
